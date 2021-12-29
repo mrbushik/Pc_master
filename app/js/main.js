@@ -30,3 +30,6 @@ iconImageOffset: [0 , 0]
 }
 
 ymaps.ready(init);
+$(".header__menu-btn").on("click", function(){
+    $(".header__menu ul").slideToggle();
+ });

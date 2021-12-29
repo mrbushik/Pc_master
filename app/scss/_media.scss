@@ -1,0 +1,146 @@
+@media (max-width: 1132px){
+    .repair__inner{
+        justify-content: space-around;
+    }
+    .repair__item{
+        margin-right: unset;
+    }
+    .order__title{
+        right: 2%;
+    }
+}
+@media (max-width: 1079px){
+.order__rectangle{
+    display: none;
+}
+}
+@media (max-width: 1005px){
+    .order__item-container{
+        margin-left: unset;
+    }
+    .order__item-rectangle{
+        margin-left: -6%;
+    }
+}
+@media (max-width: 850px){
+    .order__image{
+        margin-top: 96px;
+    }
+}
+@media (max-width: 700px){
+.header__info{
+    display: none;
+    }
+    .logo{
+        text-shadow: 0px 5px 11.57px rgba(0, 0, 0, 0.25);      
+    }
+    .header__nav-bar{
+        justify-content: space-around
+    }
+    .header__menu{
+        display: block;
+        padding-top: 33px;
+        &-btn{
+            display: block;
+        }
+    
+    }
+    .header-row{
+        width: 30px;
+        height: 3px;
+        background-color: #fff;
+        margin-bottom: 5px;
+    }
+    .header__drop-menu{
+        position: absolute;
+z-index: 2;
+top: 80px;
+left: 0;
+right: 0;
+width: 100%;
+background-color: #1e1e1e;
+color: #fff;
+a{
+    color: #fff;
+    font-size: 16px;
+ 
+}
+li:first-child{
+    padding-top: 20px;
+}
+li{
+    text-align: center;
+    padding-bottom: 20px;
+  
+}
+    }
+    .order__inner{
+        justify-content: center;
+        display: flex;
+    }
+    .header__rectangle{
+        display: none;
+    }
+    .header__description{
+        padding-top: 286px;
+    }
+    .order__rectangle-off{
+    display: block;
+    background: rgb(32,115,208);
+    background: linear-gradient(48deg, rgba(32,115,208,1) 0%, rgba(33,123,211,1) 35%, rgba(32,130,213,1) 100%); 
+    height: 3px;
+    width: 90%;
+    position: absolute;
+margin-top: 68px;
+
+}
+.order__container{
+   display: block;
+}
+.order__title{
+    width: unset;
+   
+    right: unset;
+    text-align: center;
+    margin-left: 10%;
+    
+}
+.order__item{
+    margin-left: 7%;
+}
+}
+@media(max-width: 424px){
+.order__rectangle-off{
+    width: 73%;
+}
+.order__item{
+    margin-left: unset;
+    &-rectangle{
+        width: 70px;
+        height: 70px;
+    }
+    img{
+        height: 41px;
+    }
+    &-container{
+padding-left: 2%;
+    }
+}
+}
+@media(max-width: 365px){
+    .header__title{
+        font-size: 24px;
+    }
+    .header__subtitle{
+        font-size: 18px;
+    }
+    .order__item{
+        display: grid;
+        &-rectangle{
+            margin-left: unset;
+        }
+    }
+
+}
+
+  
