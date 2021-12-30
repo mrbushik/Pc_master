@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>pc-master</title>
   <!-- <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@100&display=swap"
     rel="stylesheet">
   <link href="https://fonts.googleleapis.com/css?family=Roboto:500,700&display=swap" rel="stylesheet">
@@ -13,332 +12,328 @@
   <link rel="stylesheet" href="/css/libs.min.css">
   <link rel="stylesheet" href="/css/style.min.css">
 </head>
-
 <body>
- <header class="header"> 
-   <div class="container">
-     <div class="header__nav-bar">
-      
-     <div class="logo">ПК<span class="logo__text">мастер</span></div>
-     <nav class="header__menu">
-      <div class="header__menu-btn">
-        <div class="header-row"></div>
-        <div class="header-row"></div>
-        <div class="header-row"></div>
-    </div>
-    <ul class="header__drop-menu">
-      <li><a href="#">Цены</a></li>
-      <li><a href="">Как нас найти</a></li>
-      <li><a href="">Позвонить мастеру</a></li>
-      <li><a href="">Время работы</a></li>
-      <li><a href="">Почта</a></li>
-    </ul>
-  </nav>
-     <div class="header__info">
-      <div class="header__item">
-        <div class="header__item-container">
-      <svg class="header__svg"
-      xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
-      width="0.542in" height="0.403in">
-     <image  x="0px" y="0px" width="39px" height="29px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAdCAMAAAAenIXMAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACYVBMVEUgUcYgUskWN4UYO5IQKmUgU8shV9MgVMsgUscgUccgUsogUsogUskgUskgUskgUskgUskgUskgUskgUskgUskdSrQhVM4hU8wgUskgUskgUskAAAAECBQUNH0iWNUiVdIgUskgUsggUskgUskgUskgUskgUskgUskgUskAAAADCBEgU8shV9QgVMsgUscgUskgUskgUskgUskgUskgUskgUskAAAADCBAQKmMgUscgUskgUskgUskgUskgUskgUskgUskAAAAQKmQgU8shV9MgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskAAAAgU8shV9MgVMsgUscgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskAAAAhV9MgVMsgUscgUskgUskgUskgUskgUskgUskgUskgUskgUskAAAAhV9MgVMsgUscgUskgUskgUskgUskgUskgUskgUskgUskgUscgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskAAAAgUskAAAAgUskAAAADCBIQKmQgU8shV9MgVMsgUscgUskgUskgUskgUskDCBIQKmQgU8shV9MgVMsgUsf///+TNVYLAAAAw3RSTlMAAAAAAAAAAAATYb7u9vLx9O/UfSARWr/deBwHBAIbWMHx/vXaKwQBBUAqAQQohuagPQwCEy+8uVAdZ8LZKUGjrfTIbyMOS5vr97xiFxFWuvnt7uWROwolg9b9mUAsc8/q5fq3VRBayHIaCz6f4Of+/M90H0KwTQ9c4fvfmj8DByhtyYo3CiR80vC2YRZRrr1oIeLTfio4kfrppEgJaviiQx5wty4wjOTFTK/cj3bGqQY6l1X86+Xq58/x8O3s7Ozs89HMaRbFAAAAAWJLR0TK87Q25gAAAAd0SU1FB+UMGhARJu37f/YAAAGySURBVDjLY2Bg4OTi5uHl48cO+AQEhYRFGBkZmJhFxcQP4wMSklJAddIysnLyCopKuFQpq0iqqqlrMGhqsWjr6Orp41DGb2BoZMxoYspgZm7BysZuaWWNVZmNsK0aI6OdvQOD4xEnZxd2Dlc3dw8MVZ5e3j6MjL5+/gGBDEFHjgaHhIYxMoZHRAagqIqSiI7RYDSOjYs/fDiBIfHI0WNJySmp6oxGaV6CUQhlvOkZmYyMWdk5IKfnMuQB1eUXFBYVqzNmlUQjvMNbWmakzlhe4cULCopKsLrjJ6qqa2rrGOsbGptggdbc0srI2Nbe4QnmwtSdPNzZ1d0DdHNvnyDIA/0TJgLtdHOfBNWGUHf48OQpU+sYGadNl5gxc9bsOYyMxXOt5x3Gou4wz/wFvoyMCxctbl7CyDhn6bLlCE+hqFPiXTHBhNE4dUmmMWPWylUCSjjUHT4csHpNLCMj0PbMteuUkcMSTd3hw4HryzYwMm7clIsaMxjqDh9ummu4edWWwwTVHQ6M1MdIZdjUKUVhJkZs6rCBkaduK1HqtjFsJ0rdDoadu3bv2btv/wF84KDAIQDXWLXzf1IdnAAAAABJRU5ErkJggg==" />
-     </svg>
-     <div class="header__item-name">Почта</div>
-    </div>
-     <div class="header__item-info">zefirgrodno@mail.ru</div>
-    </div>
-    <div class="header__item">
-      <div class="header__item-container">
-        <svg class="header__svg"
- xmlns="http://www.w3.org/2000/svg"
- xmlns:xlink="http://www.w3.org/1999/xlink"
- width="0.389in" height="0.389in">
-<image  x="0px" y="0px" width="28px" height="29px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABHVBMVEUgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUsn////8qr34AAAAXXRSTlMAZPraM2PnJkT80Q1AGRDflmj9N2f+WLiphj/Wt9hw781qweA1aX73Wyn7zMPA6Uie6xzKchfovQuAvMbHekn4vhhhzlCqRrkMJQNF6svxMdz2YlVP4RqXOnGhsAmtNZSoAAAAAWJLR0ReBNZhuwAAAAd0SU1FB+UMGhAmBKicniYAAAEPSURBVCjPjdFnU8JAEAbgFRVBA2LFAhrRSGIvUSxR7B3sIuD+/7/hVbOQm4z74XJvntmZuz0AgJ4EYm8fGKsfeSUHTJZKC8TBoY7fVoYt2WFUlaM2MjrG1nFtOGERw0n+yf8hTrE4PUMMZkMssFicI0ZwPsWivUAMStoWl3i0HWKwrKwsDGzXDQ28FYmrMq6tb2ySG21J3N4RaRdLju/7+lZ7+1IrBzwdFo6OgyA40a2nValn56bpXqgzXWZM6vxL7ayIV/nrG/oISm/5qSx+iNxdtLdy//D4JHY1L6r1op5n8jmqYb1AnEKcQoy+dt73LU0s8d41jY/PsK/bAL4aZTXKb9MovWar3W64P2z7C4DqdHq2QbgyAAAAAElFTkSuQmCC" />
-</svg>
-   <div class="header__item-name">Телефон</div>
-  </div>
-   <div class="header__item-info"><a class="header__phone" href="tel:375297881596">+375 29 788 15 96</a></div>
-  </div>
-  <div class="header__item">
-    <div class="header__item-container">
-      <svg class="header__svg"
-      xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
-      width="0.389in" height="0.403in">
-     <image  x="0px" y="0px" width="28px" height="29px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAdCAMAAACOj/wDAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABrVBMVEUgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUsn///9uvBTNAAAAjXRSTlMABDVslqytp4ZWHhFy0/W0RWDh9MGUdXF9pNcpBZniHDie/vFTB66PEjvN/Fql+VgLSGtdEDCw6RWIShTdg9XSb034JQ3lWcAJi5wX87ht0PfnVLH68E9lq4w5NgOyt25n0Yrf4D0ZClvUDORcwoWAUCMTFqFiAg6q+wapP1XmeCDu3saae3fbr8/yQKbRvhmoAAAAAWJLR0SOggWzbwAAAAd0SU1FB+UMGhAmOmn9g40AAAFzSURBVCjPdZLlQ8JQFMWvYgtioYJdoNgYYGB3Dp3dOrAbuzvP/+yEjW0wz5d37v29d+8rIlFh4ZqIyKjomNg4Cla8VgdBCfpEJUtKBlJSDWnpGUYTz/WZEsrKBnK0uUL5vPwCFBaJrNgMWEpkdUqtKCsXfAUqq5RdqitQVuNzNqBWSNbVi7gB9r82DjsaxZQZTYJrboGRH5xoLRZhG9pF24HOLuruQW+glxW2gO/jCzYhuV8V9qKVBjBIqnAoYZhGMKoOaYwhF8b/gRMsTWJKDqelYIYNXjk7Nze/4A8WWVrCsgT9z7biD1YZWkO+BJ3rHMfp3D7v4Xdbg5wNiYbxEuwmtmh7B7ukpj3sEx3A1K/CDsEcER27MBvKTjh4/8YV4DSYnenh8vicF2ytkp1f4DLRb6+uAYNDxm5Wwd4GDmAA7u4fhKluI/Aou1PafAKY55fXN+f1O39HH13KLppP8cd/fXyHbP6sftryE+09OPQEUr/03WopbpRGVAAAAABJRU5ErkJggg==" />
-     </svg>
- <div class="header__item-name">Время работы</div>
-</div>
- <div class="header__item-info">пн-пт 10-19, сб 10-17</div>
-</div>
-     </div>
-   </div>
-   <div class="header__rectangle">
-     <div class="header__link">
-       <div class="header__link-item">
-         <a class="header__link-text" href="#">О нас</a>
-       </div>
-       <div class="header__link-item">
-        <a class="header__link-text" href="#">Цены</a>
+  <header class="header">
+    <div class="container">
+      <div class="header__nav-bar">
+        <div class="logo">ПК<span class="logo__text">мастер</span></div>
+        <nav class="header__menu">
+          <div class="header__menu-btn">
+            <div class="header-row"></div>
+            <div class="header-row"></div>
+            <div class="header-row"></div>
+          </div>
+          <ul class="header__drop-menu">
+            <li><a href="#">Цены</a></li>
+            <li><a href="">Как нас найти</a></li>
+            <li><a href="">Позвонить мастеру</a></li>
+            <li><a href="">Время работы</a></li>
+            <li><a href="">Почта</a></li>
+          </ul>
+        </nav>
+        <div class="header__info">
+          <div class="header__item">
+            <div class="header__item-container">
+              <svg class="header__svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="0.542in" height="0.403in">
+                <image x="0px" y="0px" width="39px" height="29px"
+                  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAdCAMAAAAenIXMAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACYVBMVEUgUcYgUskWN4UYO5IQKmUgU8shV9MgVMsgUscgUccgUsogUsogUskgUskgUskgUskgUskgUskgUskgUskgUskdSrQhVM4hU8wgUskgUskgUskAAAAECBQUNH0iWNUiVdIgUskgUsggUskgUskgUskgUskgUskgUskgUskAAAADCBEgU8shV9QgVMsgUscgUskgUskgUskgUskgUskgUskgUskAAAADCBAQKmMgUscgUskgUskgUskgUskgUskgUskgUskAAAAQKmQgU8shV9MgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskAAAAgU8shV9MgVMsgUscgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskAAAAhV9MgVMsgUscgUskgUskgUskgUskgUskgUskgUskgUskgUskAAAAhV9MgVMsgUscgUskgUskgUskgUskgUskgUskgUskgUskgUscgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskAAAAgUskAAAAgUskAAAADCBIQKmQgU8shV9MgVMsgUscgUskgUskgUskgUskDCBIQKmQgU8shV9MgVMsgUsf///+TNVYLAAAAw3RSTlMAAAAAAAAAAAATYb7u9vLx9O/UfSARWr/deBwHBAIbWMHx/vXaKwQBBUAqAQQohuagPQwCEy+8uVAdZ8LZKUGjrfTIbyMOS5vr97xiFxFWuvnt7uWROwolg9b9mUAsc8/q5fq3VRBayHIaCz6f4Of+/M90H0KwTQ9c4fvfmj8DByhtyYo3CiR80vC2YRZRrr1oIeLTfio4kfrppEgJaviiQx5wty4wjOTFTK/cj3bGqQY6l1X86+Xq58/x8O3s7Ozs89HMaRbFAAAAAWJLR0TK87Q25gAAAAd0SU1FB+UMGhARJu37f/YAAAGySURBVDjLY2Bg4OTi5uHl48cO+AQEhYRFGBkZmJhFxcQP4wMSklJAddIysnLyCopKuFQpq0iqqqlrMGhqsWjr6Orp41DGb2BoZMxoYspgZm7BysZuaWWNVZmNsK0aI6OdvQOD4xEnZxd2Dlc3dw8MVZ5e3j6MjL5+/gGBDEFHjgaHhIYxMoZHRAagqIqSiI7RYDSOjYs/fDiBIfHI0WNJySmp6oxGaV6CUQhlvOkZmYyMWdk5IKfnMuQB1eUXFBYVqzNmlUQjvMNbWmakzlhe4cULCopKsLrjJ6qqa2rrGOsbGptggdbc0srI2Nbe4QnmwtSdPNzZ1d0DdHNvnyDIA/0TJgLtdHOfBNWGUHf48OQpU+sYGadNl5gxc9bsOYyMxXOt5x3Gou4wz/wFvoyMCxctbl7CyDhn6bLlCE+hqFPiXTHBhNE4dUmmMWPWylUCSjjUHT4csHpNLCMj0PbMteuUkcMSTd3hw4HryzYwMm7clIsaMxjqDh9ummu4edWWwwTVHQ6M1MdIZdjUKUVhJkZs6rCBkaduK1HqtjFsJ0rdDoadu3bv2btv/wF84KDAIQDXWLXzf1IdnAAAAABJRU5ErkJggg==" />
+              </svg>
+              <div class="header__item-name">Почта</div>
+            </div>
+            <div class="header__item-info">zefirgrodno@mail.ru</div>
+          </div>
+          <div class="header__item">
+            <div class="header__item-container">
+              <svg class="header__svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="0.389in" height="0.389in">
+                <image x="0px" y="0px" width="28px" height="29px"
+                  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABHVBMVEUgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUsn////8qr34AAAAXXRSTlMAZPraM2PnJkT80Q1AGRDflmj9N2f+WLiphj/Wt9hw781qweA1aX73Wyn7zMPA6Uie6xzKchfovQuAvMbHekn4vhhhzlCqRrkMJQNF6svxMdz2YlVP4RqXOnGhsAmtNZSoAAAAAWJLR0ReBNZhuwAAAAd0SU1FB+UMGhAmBKicniYAAAEPSURBVCjPjdFnU8JAEAbgFRVBA2LFAhrRSGIvUSxR7B3sIuD+/7/hVbOQm4z74XJvntmZuz0AgJ4EYm8fGKsfeSUHTJZKC8TBoY7fVoYt2WFUlaM2MjrG1nFtOGERw0n+yf8hTrE4PUMMZkMssFicI0ZwPsWivUAMStoWl3i0HWKwrKwsDGzXDQ28FYmrMq6tb2ySG21J3N4RaRdLju/7+lZ7+1IrBzwdFo6OgyA40a2nValn56bpXqgzXWZM6vxL7ayIV/nrG/oISm/5qSx+iNxdtLdy//D4JHY1L6r1op5n8jmqYb1AnEKcQoy+dt73LU0s8d41jY/PsK/bAL4aZTXKb9MovWar3W64P2z7C4DqdHq2QbgyAAAAAElFTkSuQmCC" />
+              </svg>
+              <div class="header__item-name">Телефон</div>
+            </div>
+            <div class="header__item-info"><a class="header__phone" href="tel:375297881596">+375 29 788 15 96</a></div>
+          </div>
+          <div class="header__item">
+            <div class="header__item-container">
+              <svg class="header__svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="0.389in" height="0.403in">
+                <image x="0px" y="0px" width="28px" height="29px"
+                  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAdCAMAAACOj/wDAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABrVBMVEUgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUskgUsn///9uvBTNAAAAjXRSTlMABDVslqytp4ZWHhFy0/W0RWDh9MGUdXF9pNcpBZniHDie/vFTB66PEjvN/Fql+VgLSGtdEDCw6RWIShTdg9XSb034JQ3lWcAJi5wX87ht0PfnVLH68E9lq4w5NgOyt25n0Yrf4D0ZClvUDORcwoWAUCMTFqFiAg6q+wapP1XmeCDu3saae3fbr8/yQKbRvhmoAAAAAWJLR0SOggWzbwAAAAd0SU1FB+UMGhAmOmn9g40AAAFzSURBVCjPdZLlQ8JQFMWvYgtioYJdoNgYYGB3Dp3dOrAbuzvP/+yEjW0wz5d37v29d+8rIlFh4ZqIyKjomNg4Cla8VgdBCfpEJUtKBlJSDWnpGUYTz/WZEsrKBnK0uUL5vPwCFBaJrNgMWEpkdUqtKCsXfAUqq5RdqitQVuNzNqBWSNbVi7gB9r82DjsaxZQZTYJrboGRH5xoLRZhG9pF24HOLuruQW+glxW2gO/jCzYhuV8V9qKVBjBIqnAoYZhGMKoOaYwhF8b/gRMsTWJKDqelYIYNXjk7Nze/4A8WWVrCsgT9z7biD1YZWkO+BJ3rHMfp3D7v4Xdbg5wNiYbxEuwmtmh7B7ukpj3sEx3A1K/CDsEcER27MBvKTjh4/8YV4DSYnenh8vicF2ytkp1f4DLRb6+uAYNDxm5Wwd4GDmAA7u4fhKluI/Aou1PafAKY55fXN+f1O39HH13KLppP8cd/fXyHbP6sftryE+09OPQEUr/03WopbpRGVAAAAABJRU5ErkJggg==" />
+              </svg>
+              <div class="header__item-name">Время работы</div>
+            </div>
+            <div class="header__item-info">пн-пт 10-19, сб 10-17</div>
+          </div>
+        </div>
       </div>
-      <div class="header__link-item">
-        <a class="header__link-text" href="#">Как нас найти</a>
+      <div class="header__rectangle">
+        <div class="header__link">
+          <div class="header__link-item">
+            <a class="header__link-text" href="#">О нас</a>
+          </div>
+          <div class="header__link-item">
+            <a class="header__link-text" href="#">Цены</a>
+          </div>
+          <div class="header__link-item">
+            <a class="header__link-text" href="#">Как нас найти</a>
+          </div>
+        </div>
       </div>
-     </div>
-   </div>
-   <div class="header__description">
-   <div class="header__title">Ремон Телефонов
-    И  Не Только</div>
-    <div class="header__subtitle">Наша компания осуществляет ремонт  ваших любимых 
-      гаджетов качественно и недорого</div>
-  </div>
-  </div>
- </header>
- <section class="repair">
-   <div class="container">
-   <div class="repair__inner">
-     <div class="repair__item">
-       <div class="repair__item-circle">
-       <img src="/img/computer-svgrepo-com.png">
-       </div>
-       <div class="repair__item-title">Ремонт мониторов</div>
-       <div class="repair__item-subtitle">Диагностика и ремонт вашего монитора, перепайка конденсаторов и другие виды ремонта</div>
-     </div>
-     <div class="repair__item">
-      <div class="repair__item-circle">
-      <img src="/img/chip.svg">
+      <div class="header__description">
+        <div class="header__title">Ремон Телефонов
+          И Не Только</div>
+        <div class="header__subtitle">Наша компания осуществляет ремонт ваших любимых
+          гаджетов качественно и недорого</div>
       </div>
-      <div class="repair__item-title">Ремонт видеокарт</div>
-      <div class="repair__item-subtitle">Осуществляем замену термопасты и чистку от пыли, прогрев чипа на видеокарте.</div>
     </div>
-    <div class="repair__item">
-      <div class="repair__item-circle">
-      <img src="/img/personal_PC.svg">
+  </header>
+  <section class="repair">
+    <div class="container">
+      <div class="repair__inner">
+        <div class="repair__item">
+          <div class="repair__item-circle">
+            <img src="/img/computer-svgrepo-com.png">
+          </div>
+          <div class="repair__item-title">Ремонт мониторов</div>
+          <div class="repair__item-subtitle">Диагностика и ремонт вашего монитора, перепайка конденсаторов и другие виды
+            ремонта</div>
+        </div>
+        <div class="repair__item">
+          <div class="repair__item-circle">
+            <img src="/img/chip.svg">
+          </div>
+          <div class="repair__item-title">Ремонт видеокарт</div>
+          <div class="repair__item-subtitle">Осуществляем замену термопасты и чистку от пыли, прогрев чипа на
+            видеокарте.</div>
+        </div>
+        <div class="repair__item">
+          <div class="repair__item-circle">
+            <img src="/img/personal_PC.svg">
+          </div>
+          <div class="repair__item-title">Ремонт системных блоков</div>
+          <div class="repair__item-subtitle">Ремонт комплектующих, диагностика, чистка от пыли, установка программного
+            обеспечения</div>
+        </div>
+        <div class="repair__item">
+          <div class="repair__item-circle">
+            <img src="/img/tablet-svgrepo-com.svg">
+          </div>
+          <div class="repair__item-title">Ремонт планшетов</div>
+          <div class="repair__item-subtitle">Замена разбитого стекла и дисплея, перепрошивка, чистка от вирусов...</div>
+        </div>
+        <div class="repair__item">
+          <div class="repair__item-circle">
+            <img src="/img/phone-svgrepo-com(1).svg">
+          </div>
+          <div class="repair__item-title">Ремонт телефонов</div>
+          <div class="repair__item-subtitle">Если у вашего телефона разбито стекло , не реагируют кнопки, сломана камера
+            и др. мы поможем вам...</div>
+        </div>
+        <div class="repair__item">
+          <div class="repair__item-circle">
+            <img src="/img/laptop-svgrepo-com.svg" style="height: 55px">
+          </div>
+          <div class="repair__item-title">Ремонт ноутбуков</div>
+          <div class="repair__item-subtitle">Переустановка операционной системы, замена термопасты, восстановление
+            пластика на корпусе...</div>
+        </div>
       </div>
-      <div class="repair__item-title">Ремонт системных блоков</div>
-      <div class="repair__item-subtitle">Ремонт комплектующих, диагностика, чистка от пыли, установка программного обеспечения</div>
     </div>
-    <div class="repair__item">
-      <div class="repair__item-circle">
-      <img src="/img/tablet-svgrepo-com.svg">
+  </section>
+  <section class="order">
+    <div class="order__title">Чтоб заказать ремонт, вам <span>необходимо</span><br> выполнить следующие действия</div>
+    <div class="order__container">
+      <div class="order__image-container">
+        <img class="order__image" src="/img/order__image.png"></div>
+      <div class="order__inner">
+        <div class="order__rectangle"></div>
+        <div class="order__rectangle-off"></div>
+        <div class="order__item-container">
+          <div class="order__item">
+            <div class="order__item-content">
+              <div class="order__item-rectangle">
+                <img src="/img/order_1.svg">
+              </div>
+            </div>
+            <div class="order__item-container">
+              <div class="order__item-title">Шаг 1</div>
+              <div class="order__item-subtitle">позвонить мастеру Александру по номеру +375 29 788 15 96</div>
+            </div>
+          </div>
+          <div class="order__item">
+            <div class="order__item-content">
+              <div class="order__item-rectangle">
+                <img src="/img/order_2.svg">
+              </div>
+            </div>
+            <div class="order__item-container">
+              <div class="order__item-title">Шаг 2</div>
+              <div class="order__item-subtitle">подробно расскажите про поломанное устройство</div>
+            </div>
+          </div>
+          <div class="order__item">
+            <div class="order__item-content">
+              <div class="order__item-rectangle">
+                <img src="/img/order_3.svg">
+              </div>
+            </div>
+            <div class="order__item-container">
+              <div class="order__item-title">Шаг 3</div>
+              <div class="order__item-subtitle">приходите в мастерскую на ремонт по адресу ул. Великая Ольшанка 7А
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="repair__item-title">Ремонт планшетов</div>
-      <div class="repair__item-subtitle">Замена разбитого стекла и дисплея, перепрошивка, чистка от вирусов...</div>
     </div>
-    <div class="repair__item">
-      <div class="repair__item-circle">
-      <img src="/img/phone-svgrepo-com(1).svg">
-      </div>
-      <div class="repair__item-title">Ремонт телефонов</div>
-      <div class="repair__item-subtitle">Если у вашего телефона разбито стекло , не реагируют кнопки, сломана камера и др. мы поможем вам...</div>
-    </div>
-    <div class="repair__item">
-      <div class="repair__item-circle">
-      <img src="/img/laptop-svgrepo-com.svg" style="height: 55px">
-      </div>
-      <div class="repair__item-title">Ремонт ноутбуков</div>
-      <div class="repair__item-subtitle">Переустановка операционной системы, замена термопасты, восстановление пластика на корпусе...</div>
-    </div>
-   </div>
-  </div>
- </section>
- <section class="order">
-  <div class="order__title">Чтоб заказать ремонт, вам необходимо<br> выполнить следующие действия</div>
-   <div class="order__container">
-     <div class="order__image-container">
-   <img class="order__image" src="/img/order__image.png"></div>
-  <div class="order__inner">
-   <div class="order__rectangle"></div>
-   <div class="order__rectangle-off"></div>
-     <div class="order__item-container">
- <div class="order__item">
-   <div class="order__item-content">
-   <div class="order__item-rectangle">
-   <img src="/img/order_1.svg">
-  </div
-  ></div>
-   <div class="order__item-container">
-     <div class="order__item-title">Шаг 1</div>
-     <div class="order__item-subtitle">позвонить мастеру Александру по номеру +375 29 788 15 96</div>
-   </div>
- </div>
- <div class="order__item">
-   <div class="order__item-content">
-  <div class="order__item-rectangle">
-  <img src="/img/order_2.svg">
- </div>
-</div>
-  <div class="order__item-container">
-    <div class="order__item-title">Шаг 2</div>
-    <div class="order__item-subtitle">подробно расскажите про поломанное устройство</div>
-  </div>
-</div>
-<div class="order__item">
-  <div class="order__item-content">
-  <div class="order__item-rectangle">
-  <img src="/img/order_3.svg">
- </div>
-</div>
-  <div class="order__item-container">
-    <div class="order__item-title">Шаг 3</div>
-    <div class="order__item-subtitle">приходите в мастерскую на ремонт по адресу  ул. Великая Ольшанка 7А
-    </div>
-  </div>
-</div>
-</div>
-</div>
-
-</div>
- </section>
- <!-- <section class="price">
-   <div class="container">
-<div class="price__title">Цены на наши услуги</div>
-<div class="price__rectangle"></div>
-<div class="price__subtitle">Цены, представленные на сайте, могут отличаться от цены, оглашенной мастером.<br>
-  Точную цену ремонта можно узнать, позвонив мастеру или после диагностики</div>
-  <ul>
-    <li>
-      <div class="list__container list__location">
-        <div class="list__circle off"></div>
-      <div class="list__repair">Услуга</div>
-      <div class="list__price">Цены</div>
-    </div>
-    </li>
-    <li>
-      <div class="list__container">
-      <div class="list__circle"></div>
-      <div class="list__repair">Переустановка Windows</div>
-      <div class="list__price">25 руб</div>
-    </div>
-    </li>
-    <li>
-      <div class="list__container">
-      <div class="list__circle"></div>
-      <div class="list__repair">Чистка от пыли замена термопасты </div>
-      <div class="list__price">25 руб</div>
-    </div>
-    </li>
-    <li>
-      <div class="list__container">
-      <div class="list__circle"></div>
-      <div class="list__repair">Прогрев чипа видеокарты</div>
-      <div class="list__price">от 40 руб</div>
-    </div>
-    </li>
-    <li>
-      <div class="list__container">
-      <div class="list__circle"></div>
-      <div class="list__repair">Замена разбитого стекла телефона</div>
-      <div class="list__price">от 60 руб</div>
-    </div>
-    </li>
-    <li>
-      <div class="list__container">
-      <div class="list__circle"></div>
-      <div class="list__repair">Ремонт монитора</div>
-      <div class="list__price">от 30 руб</div>
-    </div>
-    </li>
-    <li>
-      <div class="list__container">
-      <div class="list__circle"></div>
-      <div class="list__repair">Замена гнезда зарядки</div>
-      <div class="list__price">от 27 руб</div>
-    </div>
-    </li>
-    <li>
-      <div class="list__container">
-      <div class="list__circle"></div>
-      <div class="list__repair">Восстановление после попадания влаги</div>
-      <div class="list__price"> от 25 руб</div>
-    </div>
-    </li>
-    <li>
-      <div class="list__container">
-      <div class="list__circle"></div>
-      <div class="list__repair">Замена аккумулятора</div>
-      <div class="list__price">от 30 руб</div>
-    </div>
-    </li>
-    <li>
-      <div class="list__container">
-      <div class="list__circle"></div>
-      <div class="list__repair">Восстановление пластика на корпусе ноутбука</div>
-      <div class="list__price">от 30 руб</div>
-    </div>
-    </li>
-    <li>
-      <div class="list__container">
-      <div class="list__circle"></div>
-      <div class="list__repair">Перепрошивка телефона или планшета</div>
-      <div class="list__price">25 руб</div>
-    </div>
-    </li>
-    <li>
-      <div class="list__container">
-      <div class="list__circle"></div>
-      <div class="list__repair">Снятие пароля с телефона или планшета</div>
-      <div class="list__price">от 25 руб</div>
-    </div>
-    </li>
-    <li>
-      <div class="list__container">
-      <div class="list__circle"></div>
-      <div class="list__repair">Замена микрофона</div>
-      <div class="list__price">от 25 руб</div>
-    </div>
-    </li>
-    
-  </ul>
-  <div class="price__info">Мастерская оказывает и другие услуги<br>
-    ремонта. Уточняйте у мастера </div>
-</div>
- </section>
- <section class="location">
-   <div class="map" id="map"></div>
- </section>
- <footer>
-   <div class="container">
-     <div class="footer__inner">
-       <div class="footer__col">
-        <div class="footer__col-title">О нас</div> 
-        <div class="footer__col-rectangle"></div>
-        <div class="footer__col-content">Специалист Алексанр - это мастер с многолетним опытом 
-          в ремонте различной техники, сталкивался с ремонтами всяческой сложности и поможет Вам решить 
-          проблему в масимально короткий срок. </div>
-       </div>
-       <div class="footer__col">
-        <div class="footer__col-title">Ремонтируем</div> 
-        <div class="footer__col-rectangle"></div>
-      <ul class="footer__col_list-repair">
-        <li>Телефоны</li>
-        <li>Планшеты</li>
-        <li>Ноутбуки</li>
-        <li>Системные блоки</li>
-        <li>Мониторы</li>
-        <li>Сборка персональных компьютеров</li>
-        <li>Перепайка компонентов</li>
+  </section>
+  <section class="price">
+    <div class="container">
+      <div class="price__title">Цены на наши услуги</div>
+      <div class="price__rectangle"></div>
+      <div class="price__subtitle">Цены, представленные на сайте, могут отличаться от цены, оглашенной мастером.
+        Точную цену ремонта можно узнать, позвонив мастеру или после диагностики</div>
+      <ul>
+        <li>
+          <div class="list__container list__location">
+            <div class="list__circle off"></div>
+            <div class="list__repair">Услуга</div>
+            <div class="list__price">Цены</div>
+          </div>
+        </li>
+        <li>
+          <div class="list__container">
+            <div class="list__circle"></div>
+            <div class="list__repair">Переустановка Windows</div>
+            <div class="list__price">25 руб</div>
+          </div>
+        </li>
+        <li>
+          <div class="list__container">
+            <div class="list__circle"></div>
+            <div class="list__repair">Чистка от пыли замена термопасты </div>
+            <div class="list__price">25 руб</div>
+          </div>
+        </li>
+        <li>
+          <div class="list__container">
+            <div class="list__circle"></div>
+            <div class="list__repair">Прогрев чипа видеокарты</div>
+            <div class="list__price">от 40 руб</div>
+          </div>
+        </li>
+        <li>
+          <div class="list__container">
+            <div class="list__circle"></div>
+            <div class="list__repair">Замена разбитого стекла телефона</div>
+            <div class="list__price">от 60 руб</div>
+          </div>
+        </li>
+        <li>
+          <div class="list__container">
+            <div class="list__circle"></div>
+            <div class="list__repair">Ремонт монитора</div>
+            <div class="list__price">от 30 руб</div>
+          </div>
+        </li>
+        <li>
+          <div class="list__container">
+            <div class="list__circle"></div>
+            <div class="list__repair">Замена гнезда зарядки</div>
+            <div class="list__price">от 27 руб</div>
+          </div>
+        </li>
+        <li>
+          <div class="list__container">
+            <div class="list__circle"></div>
+            <div class="list__repair">Восстановление после попадания влаги</div>
+            <div class="list__price"> от 25 руб</div>
+          </div>
+        </li>
+        <li>
+          <div class="list__container">
+            <div class="list__circle"></div>
+            <div class="list__repair">Замена аккумулятора</div>
+            <div class="list__price">от 30 руб</div>
+          </div>
+        </li>
+        <li>
+          <div class="list__container">
+            <div class="list__circle"></div>
+            <div class="list__repair">Восстановление пластика на корпусе ноутбука</div>
+            <div class="list__price">от 30 руб</div>
+          </div>
+        </li>
+        <li>
+          <div class="list__container">
+            <div class="list__circle"></div>
+            <div class="list__repair">Перепрошивка телефона или планшета</div>
+            <div class="list__price">25 руб</div>
+          </div>
+        </li>
+        <li>
+          <div class="list__container">
+            <div class="list__circle"></div>
+            <div class="list__repair">Снятие пароля с телефона или планшета</div>
+            <div class="list__price">от 25 руб</div>
+          </div>
+        </li>
+        <li>
+          <div class="list__container">
+            <div class="list__circle"></div>
+            <div class="list__repair">Замена микрофона</div>
+            <div class="list__price">от 25 руб</div>
+          </div>
+        </li>
       </ul>
-       </div>
-       <div class="footer__col">
-        <div class="footer__col-title">Контакты</div> 
-        <div class="footer__col-rectangle"></div>
-     <ul class="footer__col-list">
-       <li>Телефон мастера Александра 
-        +375 29 788 15 96</li>
-       <li>Email: zefirgrodno@gmail.com</li>
-       <li>Адресс: Великая Ольшанка 7А</li>
-     </ul>
-       </div>
-     </div>
-   </div>
- </footer> -->
- <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"></script>
+      <div class="price__info">Мастерская оказывает и другие услуги<br>
+        ремонта. Уточняйте у мастера </div>
+    </div>
+  </section>
+  <section class="location">
+    <div class="map" id="map"></div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__col">
+          <div class="footer__col-title">О нас</div>
+          <div class="footer__col-rectangle"></div>
+          <div class="footer__col-content">Специалист Алексанр - это мастер с многолетним опытом
+            в ремонте различной техники, сталкивался с ремонтами всяческой сложности и поможет Вам решить
+            проблему в масимально короткий срок. </div>
+        </div>
+        <div class="footer__col">
+          <div class="footer__col-title">Ремонтируем</div>
+          <div class="footer__col-rectangle"></div>
+          <ul class="footer__col_list-repair">
+            <li>Телефоны</li>
+            <li>Планшеты</li>
+            <li>Ноутбуки</li>
+            <li>Системные блоки</li>
+            <li>Мониторы</li>
+            <li>Сборка персональных компьютеров</li>
+            <li>Перепайка компонентов</li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <div class="footer__col-title">Контакты</div>
+          <div class="footer__col-rectangle"></div>
+          <ul class="footer__col-list">
+            <li>Телефон мастера Александра
+              +375 29 788 15 96</li>
+            <li>Email: zefirgrodno@gmail.com</li>
+            <li>Адресс: Великая Ольшанка 7А</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="/js/libs.min.js"></script>
   <script src="/js/main.js"></script>
-  
-
 </body>
 
 </html>
